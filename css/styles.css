@@ -1,0 +1,71 @@
+/* header: цвет фона  #FFFFFF, лого #2196F3 #FFFFFF, info-nav цвет текста #757575 */
+/*section 1: заголовок, кнопка #FFFFFF, фон #2F303A */
+/*section 2:цвет текста основного #212121, текст пояснения #757575, фон #F5F5F5 */
+/*section 3:цвет текста #212121, фон #F5F4FA */
+/*footer: лого #2196F3 #FFFFFF, фон #2F303A   */
+/*info-nav цвет текста rgba(255, 255, 255, 0.6)  */
+
+
+:root {
+    --main-text-color:#FFFFFF;
+    --header-section-text-color:#212121;
+    --section-subtitle-color:#757575;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: var(--header-section-text-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: var(--header-section-text-color);
+}
+
+.logo:hover
+.logo:focus {
+    color: #2196F3;
+}
+                /* site-nav */
+.site-nav .link {
+    color: var(--header-section-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+
+.info-nav .link {
+    color: var(--section-subtitle-color);
+}
+.info-nav .link:hover,
+.info-nav .link:focus {
+    color: #2196F3;
+}
+                /* info-nav */
+.hero { 
+    background-color: #2F303A;
+}
+.hero-title {
+    color: var(--main-text-color);
+}
+                /* button */
+.button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+                /* section */
+
+.section-title {
+    color: var(--header-section-text-color);
+}
+
+.section-subtitle {
+    color: var(--section-subtitle-color);
+}
+                /* footer */
+
