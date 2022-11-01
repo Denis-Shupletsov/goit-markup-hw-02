@@ -57,6 +57,10 @@ body {
 }
                 /* button */
 .button {
+    cursor: pointer;
+}
+
+.button {
     background-color: var(--focus-color);
     color: #FFFFFF;
 }
@@ -64,10 +68,6 @@ body {
 .hero .button:hover,
 .hero .button:focus 
                 /* section */
-.section-title {
-    color: var(--header-section-text-color);
-}
-
 .section-subtitle {
     color: var(--section-subtitle-color);
 }
