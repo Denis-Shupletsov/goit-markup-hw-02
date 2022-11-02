@@ -42,27 +42,41 @@ body {
         /* site-nav */
 .site-nav .link {
     color: var(--header-section-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
     color: var(--focus-color);
 }
-
+        /* info-nav */
 .info-nav .link {
     color: var(--section-subtitle-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .info-nav .link:hover,
 .info-nav .link:focus {
     color: var(--focus-color);
 }
-        /* info-nav */
+        
 .hero { 
     background-color: #2F303A;
 }
 
 .hero-title {
     color: var(--main-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
         /* button */
 .button {
@@ -72,11 +86,21 @@ body {
 .button {
     background-color: var(--focus-color);
     color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
 }
 
 .hero .button:hover,
 .hero .button:focus
         /* section */
+.section {
+    background-color: #F5F5F5;
+}
+.section-title {
+    color: var(--header-section-text-color);
+}
 .section-subtitle {
     color: var(--section-subtitle-color);
 }
