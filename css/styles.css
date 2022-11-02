@@ -95,7 +95,10 @@ body {
 }
 
 .hero .button:hover,
-.hero .button:focus
+.hero .button:focus {
+    color: var(--header-section-text-color);
+}
+    
         /* section */
 .section {
     background-color: #F5F5F5;
