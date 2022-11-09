@@ -77,6 +77,10 @@ body {
 }
 
 /* button */
+.button {
+    cursor: pointer;
+}
+
 .button-portfolio {
     cursor: pointer;
 }
@@ -102,6 +106,7 @@ body {
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
+    font-family: inherit;
 }
 
 .hero-filter .button-portfolio:focus,
@@ -144,6 +149,7 @@ body {
 }
 
 .section-profession {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
 }
@@ -206,3 +212,4 @@ body {
 .footer-nav .info-link:focus {
     color: var(--focus-color);
 }
+
